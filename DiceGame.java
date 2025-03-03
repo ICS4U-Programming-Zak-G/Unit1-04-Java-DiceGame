@@ -3,8 +3,7 @@ import java.util.Scanner;
 
 // Import random class for functionalities
 import java.util.Random;
-//import java.io.*;
-//import java.util.*;
+
 /** .
 * Dice game from 1-6, loops until user guesses right.
 *
@@ -83,7 +82,7 @@ public final class DiceGame {
 
                         // tell user correct guess
                         System.out.println("You guessed correct! It took "
-                            + counter + " tries.");
+                            + counter + " try(ies).");
 
                     // Check if user guess is too low
                     } else if (userGuess < randNumber) {
